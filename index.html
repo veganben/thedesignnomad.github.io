@@ -1,1 +1,83 @@
-<html><head></head><body><h1>Hello, world!</h1></body></html>
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+        <title>The Design Nomad</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Radley:400,400italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Crimson+Text:600,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="path/to/instafeed.min.js"></script>
+    </head>
+
+
+    <body>
+
+
+
+		<!--Header-->
+		<div class="headercontainer">
+
+		<img id="logo" src="./assets/logo.png" alt="The Design Nomad">
+
+        <div class="subheadertext" alt="Location">
+            <h2>Currently in</h2>
+            <h3>CHICAGO, ILLINOIS, USA</h3>
+        </div>
+ 
+		<img class="header" src="./assets/img_header.png" alt="The Design Nomad - Arizona, USA">
+
+
+    	</div>
+
+
+
+    	<!--Intro-->
+        <div class="introcontainer">
+
+        	<div class="introheadercontainer">
+        	<h1>Life is too short to spend boxed up in one place.</h1>
+            </div>
+
+            <div class="introcopycontainer">
+            <h4>
+                Instead I want to live, breathe and experience as many new places and cultures as I can. <br><br>
+
+                My bucketlist is ever expanding, and I try everyday to keep up. No complaints though; my insatiable wanderlust has me running around the world getting up to various (but thoroughly enjoyable) mischiefs - all the while funneling the insights from all I see and do into running my design studio, MELEWI with the help from my amazing team.<br><br>
+
+                 The world is my office, and it’s impossible not to be inspired when you’ve the freedom to find yourself the best vantage point.
+            </h4>
+        	</div>
+
+            <div id="introbuttoncontainer">
+                <button class="btn-large">About me</button>
+            </div>
+
+        </div>
+
+
+        <!--Instagram Feed-->
+        <div id="instafeed">
+
+        <script type="text/javascript">
+            var feed = new Instafeed({
+                get: 'user',
+                userId: '10393930',
+                accessToken: '10393930.467ede5.3f722434be364bce9e2d01d9d5d44af1'
+                template: '<div class="instapiccontainer"><a href="{{link}}"><img src="{{image}}" /></a></div>'
+            });
+            userfeed.run();
+        </script>
+
+        </div>
+
+
+
+    </body>
+
+
+</html>
